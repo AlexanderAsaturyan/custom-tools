@@ -1,0 +1,10 @@
+{
+  "name": "com.alexanderasaturyan.mycustomtool",
+  "version": "1.0.0",
+  "displayName": "My Custom Tool",
+  "description": "A simple tool for Unity projects.",
+  "author": {
+    "name": "Alexander Asaturyan",
+    "email": "alexanderasaturyan@gmail.com"
+  }
+}
