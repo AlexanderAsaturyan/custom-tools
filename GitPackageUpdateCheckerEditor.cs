@@ -43,7 +43,11 @@ namespace Editor
                 Debug.LogError("GetLatestVersionAsync TRY");
                 // Replace this URL with the URL of your package’s GitHub repository
                 string response = await client.GetStringAsync("https://github.com/AlexanderAsaturyan/custom-tools.git");
+                Debug.LogError("Client: " + client);
+                Debug.LogError("Response: " + response);
                 GitHubRelease release = JsonUtility.FromJson<GitHubRelease>(response);
+                Debug.LogError("release: " + release);
+                Debug.LogError("Release TagName: " + release.tag_name);
                 return release.tag_name;
             }
             catch
