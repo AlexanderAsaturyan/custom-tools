@@ -11,6 +11,7 @@ namespace Editor
         static GitPackageUpdateCheckerEditor()
         {
             Debug.LogError("GitPackageUpdateCheckerEditor Constructor");
+            Debug.LogError("GitPackageUpdateCheckerEditor Constructor22222222");
             // Perform the check for updates when the editor starts
             CheckForUpdate();
         }
