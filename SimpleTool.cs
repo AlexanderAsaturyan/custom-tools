@@ -5,6 +5,6 @@ public class SimpleTool
     [MenuItem("Tools/My Custom Tool/Show Message")]
     private static void ShowMessage()
     {
-        EditorUtility.DisplayDialog("Hello", "This is a custom tool!", "OK");
+        EditorUtility.DisplayDialog("Hello", "This is a custom tool! And this is an UPGRADE message!", "OK");
     }
 }
