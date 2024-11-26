@@ -61,7 +61,7 @@ namespace Editor
 
         // GitHub release model to parse the version tag
         [System.Serializable]
-        private class GitHubRelease
+        public class GitHubRelease
         {
             public string tag_name;
         }
